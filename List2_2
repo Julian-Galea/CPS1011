@@ -1,0 +1,25 @@
+// fathm_ft.c -- converts 2 fathoms to feet
+
+#include <stdio.h>
+
+int main(void)
+
+{
+
+    int feet, fathoms;//feet and fathoms are variables, here the variables are declared
+
+
+
+    fathoms = 2; //fathoms is the lvalvue in this case, and 2 is the rvalue in this case
+    
+    feet = 6 * fathoms; //feet is the lvalue in this case, and 6*fathoms is the rvalue in this case
+
+    printf("There are %d feet in %d fathoms!\n", feet, fathoms);
+
+    printf("Yes, I said %d feet!\n", 6 * fathoms);
+
+
+
+    return 0;
+    
+}
